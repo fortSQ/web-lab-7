@@ -1,0 +1,12 @@
+{% extends "layout.html.twig" %}
+
+{% block content %}
+    <div class="well">Выполнено <span id="completed_task_count">?</span> из <span id="total_task_count">?</span> поручений</div>
+    <div id="task">
+        {% include 'task/item.html.twig' with {text: '...'} %}
+    </div>
+{% endblock %}
+
+{% block js %}
+    <script type="text/javascript" src="{{ asset('js/main.js') }}"></script>
+{% endblock %}

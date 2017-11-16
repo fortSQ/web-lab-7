@@ -1,0 +1,17 @@
+{
+  "name": "lab",
+  "homepage": "https://github.com/fortSQ/web-lab-7",
+  "authors": [
+    "Dmitry V. Romanov <fortsq@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

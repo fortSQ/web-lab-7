@@ -1,0 +1,12 @@
+<div class="jumbotron">
+    <h2>Поручение</h2>
+    {% if id|default(0) > 0 %}
+    <p>{{ text }}</p>
+    <p>
+        <a id="complete" class="btn btn-success btn-lg" data-id="{{ id }}">Выполнить</a>
+        <a id="next" class="btn btn-primary btn-lg" data-id="{{ id }}">Следующее</a>
+    </p>
+    {% else %}
+        <p>{{ text|default('Поручений больше нет!') }}</p>
+    {% endif %}
+</div>
